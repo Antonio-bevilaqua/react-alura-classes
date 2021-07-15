@@ -5,7 +5,7 @@ class Nota {
     this.categoria = categoria;
   }
 
-  categoria(categoria) {
+  checaCategoria(categoria) {
     return this.categoria === categoria;
   }
 }

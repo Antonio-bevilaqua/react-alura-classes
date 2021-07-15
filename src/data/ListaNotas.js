@@ -35,7 +35,7 @@ class ListaNotas {
   }
 
   removeNotasCategoria(categoria) {
-    this.notas = this.notas.filter( n => n.categoria !== categoria );
+    this.notas = this.notas.filter( n => !n.checaCategoria(categoria) );
     this.notify();
   }
 }
