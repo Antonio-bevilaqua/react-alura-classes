@@ -1,0 +1,55 @@
+.card-nota {
+  color: var(--destaque);
+}
+
+.card-nota header h3 {
+  font-size: 2.5rem;
+  min-width: 200px;
+}
+
+.card-nota_badge {
+  background: var(--azulLuminoso);
+  border: 1px solid var(--texto);
+  color: var(--texto);
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  padding: 0.25rem .5rem;
+  border-radius: 1rem;
+  list-style: none;
+}
+
+.card-nota_titulo {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.card-nota_icon {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.card-nota_icon:hover {
+  opacity: 0.7;
+}
+
+.card-nota_texto {
+  color: var(--texto);
+  font-size: 1.8rem;
+}
+
+.formulario-cadastro_button {
+  background: var(--primaria);
+  border: 2px solid var(--texto);
+  color: var(--texto);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  border-radius: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 0rem;
+}
+
+.formulario-cadastro_button:hover {
+  color: var(--primaria);
+  background: var(--texto);
+}
